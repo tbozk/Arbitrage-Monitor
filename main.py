@@ -4,8 +4,8 @@ import json
 from datetime import datetime, timedelta
 
 pair_data = {}
-triplets = []  # This will hold the triplet data read from file
-pair_to_triplet_indices = {}  # This
+triplets = []
+pair_to_triplet_indices = {}
 last_print_time = {}
 
 
