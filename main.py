@@ -22,7 +22,7 @@ def on_message(message):
     global pair_to_triplet_indices, pair_data
 
     message_data = json.loads(message)
-    # Extract the "s", "b", and "a" values
+
     symbol = message_data["data"]["s"]  # This is the "s" value, representing the symbol (e.g., BTCUSDT)
     bid_price = message_data["data"]["b"]  # This is the "b" value, representing the best bid price
     ask_price = message_data["data"]["a"]  # This is the "a" value, representing the best ask price
