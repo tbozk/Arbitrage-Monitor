@@ -51,15 +51,15 @@ def on_message(message):
                 # Checking for arbitrage opportunity and printing...
                 last_print_time[triplet_str] = now
             # Checking for arbitrage opportunity
-                if pair_data[A]["ask"] * pair_data[B]["ask"] < pair_data[C]["bid"]:
+                if pair_data[A]["ask"] * pair_data[B]["ask"] < pair_data[C]["ask"]:
                     print("Arbitrage detected: {}, {}, {}".format(A, B, C))
                     print(
-                        f"ASK Prices: {A}: {pair_data[A]['ask']}, {B}: {pair_data[B]['ask']}, BID Price of {C}: {pair_data[C]['bid']}")
+                        f"ASK Prices: {A}: {pair_data[A]['ask']}, {B}: {pair_data[B]['ask']},  {C}: {pair_data[C]['ask']}")
                     print()
-                if pair_data[A]["bid"] / (pair_data[B]["ask"] * pair_data[C]["ask"]) > 1:
+                if pair_data[A]["bid"] * pair_data[B]["bid"] > pair_data[C]["bid"]:
                     print("Arbitrage detected: {}, {}, {}".format(A, B, C))
                     print(
-                        f"BID Price of {A}: {pair_data[A]['bid']}, ASK Prices: {B}: {pair_data[B]['ask']}, {C}: {pair_data[C]['ask']}")
+                        f"BID Prices of {A}: {pair_data[A]['bid']}, {B}: {pair_data[B]['bid']}, {C}: {pair_data[C]['bid']}")
                     print()
 
 
@@ -105,3 +105,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
