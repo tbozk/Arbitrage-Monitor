@@ -15,7 +15,7 @@ Then, run the following:
 docker run arbitrage
 ```
 
-It is also possible to install the dependencies with ```pip``` manually and then run the main.py file.
+It is also possible to install the dependencies (please refer to dependencies.txt) with ```pip``` manually and then run the main.py file.
 
 
 A few notes about the code:
