@@ -75,7 +75,9 @@ async def connect_and_consume(uri):
 
 
 async def main():
-    TRIPLET_NO = 150
+    TRIPLET_NO = 150 #pick the first 150 triplets from all triplets.
+    #this ensures that the number of pairs does not exceed 500 since 150 * 3 = 450
+
     global triplets, pair_to_triplet_indices
 
     filename = 'ALL_TRIPLETS.txt'

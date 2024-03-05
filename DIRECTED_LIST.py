@@ -3,7 +3,11 @@ from TRADE_SYMBOLS import symbols
 with open('PAIRS_EXTRACTED', 'r') as f:
     pair_data = f.read()
 
-# Convert string to Python list
+
+
+#THIS FILE IS NOT NECESSARY
+#IT WAS USED FOR INTERMEDIATE DATA PROCESSING
+
 pair_list = eval(pair_data)
 
 
@@ -13,6 +17,8 @@ directed_list = {}
 for symbol in symbols:
     directed_list[symbol] = []
 
+
+#LOGIC TO SPLIT EACH PAIR INTO INDIVIDUAL SYMBOLS
 for pair in pair_list:
     s=""
     c=""
@@ -31,6 +37,7 @@ for pair in pair_list:
 
 all_triplets = []
 
+#REMOVE FALSELY-SPLIT ONES
 for A in directed_list:
     lst = []
     for B in directed_list[A]:
@@ -41,7 +48,7 @@ for A in directed_list:
         directed_list[A].remove(l)
 
 
-
+#CREATE TRIPLETS: AB BC AC
 for A in directed_list:
     for B in directed_list[A]:
         for C in directed_list[B]:
@@ -55,7 +62,7 @@ print(all_triplets)
 
 
 
-
+#WRITE TO A FILE
 with open('ALL_TRIPLETS.txt', 'w') as f:
     for triplet in all_triplets:
         concatenated_triplet = [triplet[0]+triplet[1], triplet[1]+triplet[2], triplet[0]+triplet[2]]
