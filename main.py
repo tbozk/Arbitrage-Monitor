@@ -43,7 +43,7 @@ def on_message(message):
 
         if all(pair in pair_data for pair in [A, B, C]) and all(
                 pair_data[pair]["bid"] != -1 and pair_data[pair]["ask"] != -1 for pair in [A, B, C]):
-            print_threshold = timedelta(seconds=10)
+            print_threshold = timedelta(seconds=5)
 
             # Check if we've printed this arbitrage recently
             now = datetime.now()

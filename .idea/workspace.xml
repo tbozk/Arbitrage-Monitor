@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed67477-41b6-4900-82da-4c6aeaffb058" name="Changes" comment="Test Commit">
+    <list default="true" id="4ed67477-41b6-4900-82da-4c6aeaffb058" name="Changes" comment="Formula Correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709386151894</updated>
       <workItem from="1709386242425" duration="4967000" />
-      <workItem from="1709468582866" duration="20719000" />
+      <workItem from="1709468582866" duration="22189000" />
     </task>
     <task id="LOCAL-00001" summary="Configurations - 1">
       <option name="closed" value="true" />
@@ -124,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709568692784</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Formula Correction">
+      <option name="closed" value="true" />
+      <created>1709570293546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709570293546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,10 +181,11 @@
     <MESSAGE value="Configurations - 1" />
     <MESSAGE value="Arbitrage Detector" />
     <MESSAGE value="Test Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Commit" />
+    <MESSAGE value="Formula Correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formula Correction" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Arbitrage_Monitoring$main.coverage" NAME="main Coverage Results" MODIFIED="1709569895616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Arbitrage_Monitoring$main.coverage" NAME="main Coverage Results" MODIFIED="1709570562794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Arbitrage_Monitoring$symbol_extracter.coverage" NAME="symbol_extracter Coverage Results" MODIFIED="1709477137088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Arbitrage_Monitoring$DIRECTED_LIST.coverage" NAME="DIRECTED_LIST Coverage Results" MODIFIED="1709484168749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
