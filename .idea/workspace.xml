@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed67477-41b6-4900-82da-4c6aeaffb058" name="Changes" comment="Cooldown 10 -&gt; 5">
+    <list default="true" id="4ed67477-41b6-4900-82da-4c6aeaffb058" name="Changes" comment="Comments 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALL_TRIPLETS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ALL_TRIPLETS.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709386151894</updated>
       <workItem from="1709386242425" duration="4967000" />
-      <workItem from="1709468582866" duration="24531000" />
+      <workItem from="1709468582866" duration="25078000" />
     </task>
     <task id="LOCAL-00001" summary="Configurations - 1">
       <option name="closed" value="true" />
@@ -140,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709621993165</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Comments 1">
+      <option name="closed" value="true" />
+      <created>1709626548938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709626548938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +204,8 @@
     <MESSAGE value="Test Commit" />
     <MESSAGE value="Formula Correction" />
     <MESSAGE value="Cooldown 10 -&gt; 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cooldown 10 -&gt; 5" />
+    <MESSAGE value="Comments 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Arbitrage_Monitoring$main.coverage" NAME="main Coverage Results" MODIFIED="1709625541713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
