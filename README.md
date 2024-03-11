@@ -26,4 +26,4 @@ A few notes about the code:
 - Amongst all possible triplets, I prioritized the ones containing symbols that have been known to show high volatility and those paired with fiat currencies experiencing significant fluctuations (such as TRY) to maximize arbitrage potential. These picks were mostly hand-made.
 
 The entirety of this project was built by me, Tuna Bozkurt.
-I look forward to hearing back from the TankX team.
+
